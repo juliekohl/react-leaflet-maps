@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background: #fcfcfc;
+    box-shadow: 0px 3px 40px rgba(0, 0, 0, 0.05);
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Open Sans Bold', sans-serif;
+    background: transparent;
+}
+
+.logo a{
+    color: #404040;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 0.04em;
+    text-align: center;
+}
+
+.button {
+    font-family: 'Muli', sans-serif;
+    width: 194px;
+    height: 40px;
+    border-radius: 4px;
+    background: #025e73;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    color: #fff;
+    border: #fff;
+    margin-right: 3em;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.list h1{
+    margin-right: 3em;
+}
+
+.item {
+    margin-right: 1em;
+}
